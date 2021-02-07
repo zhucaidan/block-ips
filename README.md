@@ -6,7 +6,7 @@ Linux VPS一键屏蔽指定国家所有的IP访问
 
 使用root运行以下命令：
 
-wget https://1/block-ips.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/zhucaidan/block-ips/main/block-ips.sh
 chmod +x block-ips.sh
 ./block-ips.sh
 
